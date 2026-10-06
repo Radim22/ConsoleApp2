@@ -55,7 +55,7 @@ string fullname(string name, string surname)
 Console.WriteLine("Tvoje jméno a příjmení je: " + fullname(name, surname));
 
  
- */
+
 
 
 
@@ -79,3 +79,20 @@ string co_je_vetsi(int cislo1, int cislo2)
 }
 
 Console.WriteLine("Větší číslo je: " + co_je_vetsi(cislo1, cislo2));
+
+
+ */
+
+
+using ConsoleApp2;
+
+Adresa adr = new()
+{
+    ulice = "Dlouhá",
+    cislo_popisne = 123,
+    mesto = "Praha",
+    stat = "Česká republika",
+
+};
+
+Console.WriteLine("Adresa na jeden řádek: " + adr.adresanajedenradek());
